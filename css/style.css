@@ -1,7 +1,7 @@
 /* COMMON */
 body {
     background-color: #FFF4E2;
-    min-width: 500px;
+    min-width: 300px;
 }
 
 .main-container {
@@ -127,8 +127,12 @@ footer div h4 {
 }
 
 @media all and (max-width: 576px) {
+    .main-container {
+        width: 100%;
+    }
+
     h1 {
-        font-size: 19px;
+        font-size: 24px;
     }
 
     .burger-name input {
@@ -148,7 +152,17 @@ footer div h4 {
         font-size: 15px;
     }
 
+    main {
+        height: calc(100vh - 310px);
+    }
+
     .discount-container {
+        height: 140px;
         font-size: 13.5px;
+    }
+
+    .button-container {
+        text-align: center;
+        padding: 20px 0 0;
     }
 }
