@@ -116,22 +116,13 @@ footer div h4 {
 }
 
 @media all and (min-width: 500px) and (max-width: 989px) {
-    h1{
+    h1 {
         font-size: 35px;
     }
-
-    /* .ingredients-list img {
-        width: 30px;
-    }
-
-    .ingredients-list h5 {
-        font-size: 15px;
-    } */
-
 }
 
 @media all and (max-width: 783px) {
-    h1{
+    h1 {
         font-size: 21px;
     }
 
@@ -140,21 +131,19 @@ footer div h4 {
         width: 100%;
     }
 
-    .title h3{
+    .title h3 {
         font-size: 17px;
     }
 
-    h4{
+    h4 {
         font-size: 15px;
     }
 
-    h5{
+    h5 {
         font-size: 15px;
     }
 
-    .discount-container{
+    .discount-container {
         font-size: 13.5px;
     }
-
-
 }
