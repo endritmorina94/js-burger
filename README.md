@@ -5,4 +5,4 @@
 
 
 ## Tight Version > 576px
-![Tight Version](/img/js-burger-wide.png "Tight Version")
+![Tight Version](/img/js-burger-mini.png "Tight Version")
