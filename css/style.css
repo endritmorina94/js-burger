@@ -126,13 +126,17 @@ footer div h4 {
 
 }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 575px) {
     .main-container {
         width: 100%;
     }
 
     h1 {
         font-size: 24px;
+    }
+
+    main {
+        height: calc(100vh - 310px);
     }
 
     .burger-name input {
@@ -150,10 +154,6 @@ footer div h4 {
 
     h5 {
         font-size: 15px;
-    }
-
-    main {
-        height: calc(100vh - 310px);
     }
 
     .discount-container {
