@@ -1,16 +1,131 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>JS Burger</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Burger</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- CONTAINER DELLA WEBAPP -->
+    <div class="main-container">
+
+        <!-- Header -->
+        <header class="d-flex align-items-center">
+
+            <h1>Create Your Burger</h1>
+
+        </header>
+        <!-- Fine Header -->
+
+        <!-- Main -->
+        <main>
+
+            <div class="burger-name">
+
+                <input type="text" placeholder="Name Your Burger">
+
+            </div>
+
+            <!-- Sezione degli ingredienti -->
+            <section class="ingredients-container">
+
+                <div class="title">
+
+                    <h3>Ingredients</h3>
+
+                </div>
+
+                <div class="ingredients-list">
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+
+                            <div class="col-12 col-sm-6">
+                                <img src="img/cheese.svg" alt="Cheese">
+                                <h5>Cheese</h5>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                                <img src="img/tomato.svg" alt="Tomato">
+                                <h5>Tomato</h5>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                                <img src="img/fried-egg.svg" alt="Egg">
+                                <h5>Egg</h5>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                                <img src="img/lettuce.svg" alt="Lettuce">
+                                <h5>Lettuce</h5>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                                <img src="img/mustard.svg" alt="Mustard">
+                                <h5>Mustard</h5>
+                                <input type="checkbox">
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                                <img src="img/ketchup.svg" alt="Ketchup">
+                                <h5>Ketchup</h5>
+                                <input type="checkbox">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+        <!-- Fine Main -->
+
+        <!-- Discount Area -->
+        <section class="discount-container">
+
+            <label for="discount">Disocunt Coupon</label>
+
+            <input id="disocunt" type="text" placeholder="GUARDAMAMMASENZAMANI">
+
+            <div class="button-container">
+                <button id="price-button" type="button" name="button">calculate</button>
+            </div>
+
+        </section>
+
+        <!-- Footer -->
+        <footer>
+
+            <div class="d-flex justify-content-between align-items-center">
+
+                <h4>Your Price</h4>
+
+                <h4 id="price">$ 50</h4>
+
+            </div>
+
+        </footer>
+        <!-- Fine Footer -->
+
+    </div>
+    <!-- FINE CONTAINER WEBAPP -->
 
     <script src="js/script.js" charset="utf-8"></script>
-    </body>
+
+</body>
+
 </html>
