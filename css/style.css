@@ -1,6 +1,7 @@
 /* COMMON */
 body {
     background-color: #FFF4E2;
+    min-width: 550px;
 }
 
 .main-container {
@@ -24,7 +25,7 @@ header h1 {
 /* MAIN */
 main {
     height: calc(100vh - 330px);
-    padding: 20px 40px 0;
+    padding-top: 20px;
     overflow-y: auto;
 }
 
@@ -33,6 +34,7 @@ main {
     outline: 0;
     font-size: 32px;
     font-weight: 600;
+    padding: 0 40px;
 }
 
 /* INGREDIENTI */
@@ -42,10 +44,11 @@ main {
 
 .title {
     margin-bottom: 15px;
+    padding: 0 40px;
 }
 
 .ingredients-list [class^='col'] {
-    padding: 8px 0;
+    padding: 8px 40px;
 }
 
 .ingredients-list img {
@@ -60,7 +63,7 @@ main {
 /* DISCOUNT AREA */
 .discount-container {
     height: 160px;
-    padding: 10px 40px 0;
+    padding: 10px 40px;
 }
 
 .discount-container input {
@@ -102,4 +105,56 @@ footer div {
 
 footer div h4 {
     font-weight: 700;
+    margin: 0;
+}
+
+/* RESPONSIVE */
+@media all and (max-width: 1007px) {
+    .discount-container input {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 500px) and (max-width: 989px) {
+    h1{
+        font-size: 35px;
+    }
+
+    /* .ingredients-list img {
+        width: 30px;
+    }
+
+    .ingredients-list h5 {
+        font-size: 15px;
+    } */
+
+}
+
+@media all and (max-width: 783px) {
+    h1{
+        font-size: 21px;
+    }
+
+    .burger-name input {
+        font-size: 19px;
+        width: 100%;
+    }
+
+    .title h3{
+        font-size: 17px;
+    }
+
+    h4{
+        font-size: 15px;
+    }
+
+    h5{
+        font-size: 15px;
+    }
+
+    .discount-container{
+        font-size: 13.5px;
+    }
+
+
 }
